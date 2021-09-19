@@ -1,0 +1,168 @@
+@import url("https://fonts.google.com/specimen/Rubik");
+body {
+    font-family: "Rubik", sans-serif;
+  }
+  .topic{
+      color: hsl(229, 31%, 21%);
+  }
+  .btn-danger:hover{
+    background: #fff !important;
+    color: hsl(0, 94%, 66%) !important;
+
+  }
+  .btn-primary {
+    font-weight: 700 !important; 
+    background-color: hsl(231, 69%, 60%) !important;
+    color: #fff !important;
+    
+    border: 2px solid hsl(231, 69%, 60%) !important;
+    border-radius: 5px !important;
+    padding: 10px 15px !important;
+    box-shadow: 0 5px 10px hsl(231, 69%, 60%, 0.3) !important;
+    
+    margin: 8px !important;
+  }
+  
+  .btn-primary:hover {
+    background: #fff !important;
+    color: hsl(231, 69%, 60%)!important;
+  }
+
+  
+  .btn-light {
+    font-weight: 700 !important;
+    background-color: rgb(243, 243, 243) !important;
+    color: rgb(68, 68, 68) !important;
+    border: 2px solid rgb(243, 243, 243) !important;
+    border-radius: 5px!important;
+    padding: 10px 15px !important;
+    box-shadow: 0 5px 10px rgba(43, 45, 58, 0.3) !important;
+    
+  }
+  
+  .btn-light:hover {
+    background: #fff !important;
+    border: 2px solid rgb(68, 68, 68) !important;
+  }
+  .featurespara{
+    
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .icon{
+      max-width: 260px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 50px 20px 30px;
+    box-shadow: 0 5px 10px rgba(43, 45, 58, 0.3);
+    overflow: hidden;
+  }
+  .slidepara{
+    width: 400px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .tab-content{
+      margin: auto;
+  }
+  .faq{
+      display: block;
+      width: 350px;
+      margin:auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      
+  }
+  .contact{
+    background: hsl(231, 69%, 60%);
+    color: #fff;
+    padding: 50px 0;
+    margin: auto;
+  }
+  .contactform input{
+    font-size: 14px;
+    outline: none;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 3px;
+  }
+  .conform{
+      margin: auto;
+  }
+  .contact h4{
+      letter-spacing: 5px;
+      font-size: 15px;
+     font-weight: 400;
+  }
+  .contact h2{
+    font-size: 25px;
+    font-weight: 500;
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .contactbtn{
+    font-size: 12px;
+    font-weight: 700;
+    background: hsl(0, 94%, 66%);
+    color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid hsl(0, 94%, 66%);
+  }
+  .contactbtn:hover{
+    background: #fff;
+    color: hsl(0, 94%, 66%);
+  }
+  .foot{
+    background: hsl(229, 31%, 21%);
+    color: #fff;
+    padding: 20px ;
+  }
+  @media (min-width: 320px) and (max-width: 499px) {
+      .upper{
+          display: flex;
+          flex-direction: column;
+      }
+      .featurespara{
+          width: 250px;
+      }
+      .slidepara{
+          width:200px;
+      }
+      .icon{
+          
+          margin-bottom: 10px;
+          margin-top: 10px;
+      }
+      .contactform  input {
+        width: 300px;
+      }
+      .conform{
+          flex-direction: column;
+      }
+      .mytab{
+          width: 200px;
+         
+      }
+      .footres{
+          flex-direction: column;
+      }
+      .navbar {
+          background-color:hsla(229, 31%, 21%, 0.541);
+          
+          text-align: center;}
+          .navitem a{
+              color: #fff;
+          }
+      
+  }
+
